@@ -27,10 +27,10 @@ def floating():
     
 def boolean(g):
     if g:
-        print('Boolean result is from Floating fn')
+        print('Boolean call is from Floating fn')
         print(type(g))
     else:
-        print('Boolean result is from Integer fn')
+        print('Boolean call is from Integer fn')
         print(type(g))
 
 decimal()
