@@ -14,13 +14,23 @@ def integer():
     sum1 = c + d  #can be +,-,/,//
     print(f'Integer fn result is {sum1}')
     print(type(sum1))
+    boolean(False)
     floating()
-
+    
 def floating():
     e = .1
     f = .3
     sum2 = e + e - f  #can be any arithmetic operator
     print(f'Floating fn result is {sum2}')
     print(type(sum2))
+    boolean(True)
+    
+def boolean(g):
+    if g:
+        print('Boolean result is from Floating fn')
+        print(type(g))
+    else:
+        print('Boolean result is from Integer fn')
+        print(type(g))
 
 decimal()
